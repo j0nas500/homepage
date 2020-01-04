@@ -63,14 +63,14 @@ function restore_options() {
     no_seconds: false,
     customfontgoogle: false,
     engines: "google",
-    wkey: "dde3ce0f6321a73b5e1f8aa1b304eb1e",
+    wkey: "",
     w3hours: false,
     wlang: "de",
     tempc: true,
     hexbg: false,
     links: "",
     googleapps: false,
-    showSettings: true,
+    showSettings: false,
     customcss: ""
   }, function(items) {
     document.getElementById('language').value = items.language
