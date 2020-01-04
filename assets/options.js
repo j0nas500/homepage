@@ -70,7 +70,7 @@ function restore_options() {
     hexbg: false,
     links: "",
     googleapps: false,
-    showSettings: false,
+    showSettings: true,
     customcss: ""
   }, function(items) {
     document.getElementById('language').value = items.language
