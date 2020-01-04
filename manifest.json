@@ -4,7 +4,7 @@
 
   "name": "AlexFlipnote/Homepage",
   "description": "A website that gives you a clean homepage with random backgrounds!",
-  "homepage_url": "https://alexflipnote.dev",
+  "homepage_url": "https://jonas.mvbuddies.de/homepage",
   "version": "2.0.3",
 
   "chrome_url_overrides": {
