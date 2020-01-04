@@ -56,7 +56,7 @@ function save_options() {
 // stored in chrome.storage.
 function restore_options() {
   chrome.storage.local.get({
-    language: "",
+    language: "de",
     custombg: [],
     customfont: "",
     terminal: false,
@@ -65,12 +65,12 @@ function restore_options() {
     engines: "google",
     wkey: "",
     w3hours: false,
-    wlang: "en",
+    wlang: "de",
     tempc: true,
     hexbg: false,
     links: "",
-    googleapps: false,
-    showSettings: true,
+    googleapps: true,
+    showSettings: false,
     customcss: ""
   }, function(items) {
     document.getElementById('language').value = items.language
