@@ -68,8 +68,8 @@ function restore_options() {
     wlang: "de",
     tempc: true,
     hexbg: false,
-    links: "",
-    googleapps: true,
+    links: "https://jonas.mvbuddies.de, https://mvbuddies.de",
+    googleapps: false,
     showSettings: false,
     customcss: ""
   }, function(items) {
